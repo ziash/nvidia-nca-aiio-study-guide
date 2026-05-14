@@ -6,9 +6,7 @@ This repository contains structured study notes, diagrams, screenshots from the 
 
 ## Browse the full guide
 
-**[Open the Study Guide site →](https://YOUR_GITHUB_USERNAME.github.io/nvidia-nca-aiio-study-guide)**
-
-*(Replace `YOUR_GITHUB_USERNAME` with your GitHub handle after pushing)*
+**[Open the Study Guide site →](https://ziash.github.io/nvidia-nca-aiio-study-guide)**
 
 ## What's inside
 
