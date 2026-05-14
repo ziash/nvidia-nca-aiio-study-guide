@@ -1,0 +1,63 @@
+title: "NVIDIA NCA-AIIO Study Guide"
+description: "Comprehensive exam prep for the NVIDIA Certified Associate: AI Infrastructure and Operations (NCA-AIIO) — study notes, diagrams, screenshots, and real-world field experience."
+author: "Zia Zeeshan"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+baseurl: "/nvidia-nca-aiio-study-guide"
+url: ""
+
+# Theme settings
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+permalink: pretty
+favicon_ico: "/assets/favicon.ico"
+
+# Aux nav links (top-right)
+aux_links:
+  "NVIDIA Cert Page":
+    - "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations/"
+
+aux_links_new_tab: true
+
+# Navigation
+nav_sort: order  # use nav_order frontmatter
+
+# Footer
+footer_content: >
+  Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+  Notes based on NVIDIA course materials and original field experience.
+  Not affiliated with or endorsed by NVIDIA Corporation.
+  No exam-dump material — all practice questions are original.
+
+# Back to top
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Last edit timestamp
+last_edit_time_format: "%b %e %Y"
+
+# Plugins (all supported by GitHub Pages)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor/
+  - private/
+  - claude.md
